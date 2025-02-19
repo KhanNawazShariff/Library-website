@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Book Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="books.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Kaushan+Script&family=Mooli&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+    <!-- Container -->
+    <div class="container">
+
+        <!-- Navigation -->
+        <nav class="navigation">
+            <div class="nav-left">
+                <img src="images/nav-book.jpg" alt="Nav Book">
+            </div>
+            <div class="nav-right">
+                <div class="nav-items">
+                    <a href="index.html">Home</a>
+                    <a href="about.html"><span>01.</span> About</a>
+                    <a href="books.html"><span>02.</span> Books</a>
+                    <a href="testimonials.html"><span>03.</span> Testimonials</a>
+                    <a href="#contact"><span>04.</span> Contact</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header -->
+        <header class="books-header page-header">
+            <a href="index.html" class="logo"><span>Reader</span></a>
+            <h4 class="section-heading-sm">Books</h4>
+            <h1 class="section-heading-lg">Our Bestsellers</h1>
+        </header>
+
+        <!-- Books Section -->
+        <section class="books-section">
+            <div class="books-list">
+                <div class="book">
+                    <img src="images/book1.png" alt="The Adventure of Tom Sawyer">
+                    <span class="book-name">The Adventure of Tom Sawyer</span>
+                    <span class="book-line"></span><br>
+                    <span class="book-author">by Mark Twain</span>
+                </div>
+                <div class="book">
+                    <img src="images/book2.png" alt="The Idiot">
+                    <span class="book-name">The Idiot</span>
+                    <span class="book-line"></span><br>
+                    <span class="book-author">by Fyodor Dostoevsky</span>
+                </div>
+                <div class="book">
+                    <img src="images/book3.png" alt="The Count of Monte Cristo">
+                    <span class="book-name">The Count of Monte Cristo</span>
+                    <span class="book-line"></span><br>
+                    <span class="book-author">by Alexandre Dumas</span>
+                </div>
+                <div class="book">
+                    <img src="images/book4.png" alt="Pride and Prejudice">
+                    <span class="book-name">Pride and Prejudice</span>
+                    <span class="book-line"></span><br>
+                    <span class="book-author">by Jane Austen</span>
+                </div>
+                <div class="book">
+                    <img src="images/book5.png" alt="Moby Dick">
+                    <span class="book-name">Moby Dick</span>
+                    <span class="book-line"></span><br>
+                    <span class="book-author">by Herman Melville</span>
+                </div>
+                <div class="book">
+                    <img src="images/book6.png" alt="1984">
+                    <span class="book-name">1984</span>
+                    <span class="book-line"></span><br>
+                    <span class="book-author">by George Orwell</span>
+                </div>
+                <div class="book">
+                    <img src="images/book7.png" alt="To Kill a Mockingbird">
+                    <span class="book-name">To Kill a Mockingbird</span>
+                    <span class="book-line"></span><br>
+                    <span class="book-author">by Harper Lee</span>
+                </div>
+                <div class="book">
+                    <img src="images/book8.png" alt="Brave New World">
+                    <span class="book-name">Brave New World</span>
+                    <span class="book-line"></span><br>
+                    <span class="book-author">by Aldous Huxley</span>
+                </div>
+                <div class="book">
+                    <img src="images/book9.png" alt="Frankenstein">
+                    <span class="book-name">Frankenstein</span>
+                    <span class="book-line"></span><br>
+                    <span class="book-author">by Mary Shelley</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer-books">
+            <div class="footer-header">  
+                <h4 class="section-heading-sm">Get in Touch</h4>
+                <h1 class="section-heading-lg">Contact</h1>
+                <div class="section-border"></div>
+            </div>
+
+            <div class="footer-content">
+                <div class="footer-social">
+                    <div class="address">
+                        <i class="fa-regular fa-envelope"></i>
+                        <span>Address</span>
+                        <p class="address-par">
+                            <span>E-book Library</span>
+                            <span>Worli</span>
+                            <span>Jacob Circle</span>
+                            <span>Mumbai, India</span>
+                        </p>
+                    </div>
+                    <div class="social-media">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                </div>
+
+                <div class="footer-form">
+                    <form>
+                        <div class="input-group">
+                            <input type="text" placeholder="Name">
+                            <input type="email" placeholder="Email">
+                            <input type="text" placeholder="Phone">
+                            <input type="text" placeholder="Address">
+                        </div>
+                        <textarea placeholder="Message"></textarea>
+                        <button type="button">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; Free E-book Library. All rights reserved</p>
+                <button type="button">
+                    <a href="#">Back to top <i class="fa-solid fa-chevron-up"></i></a>
+                </button>
+            </div>
+        </footer>
+
+    </div>
+    <!-- End of Container -->
+
+    <script src="app.js"></script>
+
+</body>
+</html>
